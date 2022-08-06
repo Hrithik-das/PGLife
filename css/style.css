@@ -20,11 +20,6 @@
     font-size: 13px;
 }
 
-@media (min-width: 768px){
-    .navbar-nav{
-        margin-left: auto;
-    }
-}
 
 .banner-container{
     background: url(../img/bg.png);
@@ -48,8 +43,8 @@
     padding: 0px 0px 16px;
 }
 
-.city-search > input{
-    width: 50%;
+#search-form{
+    width: 30%;
 }
 
 .city-heading{
