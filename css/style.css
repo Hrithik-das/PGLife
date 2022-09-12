@@ -4,6 +4,7 @@
 }
 
 
+
 .pglife-logo{
     width: 108px;
     height: 40px;
@@ -129,6 +130,19 @@
     }
 }
 
+#login-modal .modal-dialog {
+    width: 350px;
+    margin: auto;
+}
+
+.modal-footer {
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+#border-radius{
+    border-radius: 0px;
+}
 
 
 
