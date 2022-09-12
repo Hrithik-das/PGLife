@@ -71,7 +71,7 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
 
     <div class="page-container">
         <div class="filter-bar row justify-content-around">
-            <div class="col-auto" data-toggle="modal" data-target="#filter-modal">
+            <div class="col-auto" data-bs-toggle="modal" data-bs-target="#filter-modal">
                 <img src="img/filter.png" alt="filter" />
                 <span>Filter</span>
             </div>
@@ -196,7 +196,7 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" id="filter-heading">Filters</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -221,7 +221,7 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
                 </div>
 
                 <div class="modal-footer">
-                    <button data-dismiss="modal" class="btn btn-success">Okay</button>
+                    <button data-bs-dismiss="modal" class="btn btn-success">Okay</button>
                 </div>
             </div>
         </div>

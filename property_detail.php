@@ -84,13 +84,13 @@ $interested_users_count = mysqli_num_rows($result_4);
         </ol>
     </nav>
 
-    <div id="property-images" class="carousel slide" data-ride="carousel">
+    <div id="property-images" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
             <?php
             $property_images = glob("img/properties/" . $property['property_id'] . "/*");
             foreach ($property_images as $index => $property_image) {
             ?>
-                <li data-target="#property-images" data-slide-to="<?= $index ?>" class="<?= $index == 0 ? "active" : ""; ?>"></li>
+                <li data-bs-target="#property-images" data-bs-slide="<?= $index ?>" class="<?= $index == 0 ? "active" : ""; ?>"></li>
             <?php
             }
             ?>
@@ -106,11 +106,11 @@ $interested_users_count = mysqli_num_rows($result_4);
             }
             ?>
         </div>
-        <a class="carousel-control-prev" href="#property-images" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#property-images" type="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#property-images" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#property-images" type="button" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -142,6 +142,8 @@ $interested_users_count = mysqli_num_rows($result_4);
                 }
                 ?>
             </div>
+
+            
             <div class="interested-container">
                 <?php
                 $is_interested = false;
