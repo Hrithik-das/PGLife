@@ -232,6 +232,7 @@ $interested_users_properties = mysqli_fetch_all($result_3, MYSQLI_ASSOC);
     include "include/login_modal.php";
     include "include/footer.php";
     ?>
-</body>
 
+    <script type="text/javascript" src="js/property_list.js"></script>
+</body>
 </html>

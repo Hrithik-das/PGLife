@@ -143,7 +143,7 @@ $interested_users_count = mysqli_num_rows($result_4);
                 ?>
             </div>
 
-            
+
             <div class="interested-container">
                 <?php
                 $is_interested = false;
@@ -421,6 +421,9 @@ $interested_users_count = mysqli_num_rows($result_4);
     include "include/login_modal.php";
     include "include/footer.php";
     ?>
+
+    <script type="text/javascript" src="js/property_detail.js"></script>
+
 </body>
 
 </html>
